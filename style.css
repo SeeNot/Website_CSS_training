@@ -4,6 +4,8 @@ body{
     flex-direction: column;
 }
 
+
+
 ul{
     list-style: none;
     padding: 0;
@@ -37,4 +39,62 @@ ul.headerbuttons{
 .leftside{
     display: flex;
     flex-grow: 1;
+}
+
+.darkblue{
+    display: flex;
+    padding: 20px 20px 20px 20px;
+    background-color: #1f2937;
+    color: whitesmoke;
+}
+.left{
+    margin-left: 0;
+}
+
+#signupbutton{
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 7px 30px 7px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.darkblue h1 {
+    font-size: 48px;
+}
+
+#firstimage{
+    width: 500px;
+    height: 300px;
+}
+
+#onegrid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#onegrid img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.gridcontent{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    max-width: 300px;
+    
+}
+
+#RandInfo{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 48px;
+    color: #1f2937;
 }
